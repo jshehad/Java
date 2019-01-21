@@ -1,0 +1,42 @@
+Script started on Thu 30 Aug 2018 01:00:51 PM EDT
+[?1034hbash-4.2$ date
+Thu Aug 30 13:01:05 EDT 2018
+bash-4.2$ uname -a
+Linux zeus-2 3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.2$ pwd
+/home/jshehad/CS262/lab1_jshehad_212
+bash-4.2$ ls
+a.out  lab1  lab1_jshehad_212  lab1_jshehad_212.c  Lab1Typescript_jshehad_212  Makefile
+bash-4.2$ cat lab1_jshehad_2121[K.c
+/*
+* Jihad Shehadeh G00986964
+* CS 262, Lab Section 212
+* Lab 1
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	printf("Hello world!\n");
+	printf("My name is Jihad.\n");
+	return 0;
+}
+bash-4.2$ re[Km lab1 lab1_jshehad_1[K212
+bash-4.2$ make all
+gcc -g -Wall -o lab1_jshehad_212 lab1_jshehad_212.c
+bash-4.2$ ls
+a.out  lab1_jshehad_212  lab1_jshehad_212.c  Lab1Typescript_jshehad_212  Makefile
+bash-4.2$ lab1_jshehad_212
+Hello world!
+My name is Jihad.
+bash-4.2$ gcc -q[Kg -Wall -o lab1 lab1_jshehaf[Kd_212.c
+bash-4.2$ ls
+a.out  lab1  lab1_jshehad_212  lab1_jshehad_212.c  Lab1Typescript_jshehad_212  Makefile
+bash-4.2$ lab1
+Hello world!
+My name is Jihad.
+bash-4.2$ exit
+
+Script done on Thu 30 Aug 2018 01:05:17 PM EDT

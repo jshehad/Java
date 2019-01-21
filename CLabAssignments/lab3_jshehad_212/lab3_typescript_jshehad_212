@@ -1,0 +1,139 @@
+Script started on Tue 18 Sep 2018 12:16:59 PM EDT
+[?1034hbash-4.2$ unman[K[K[Kame -a
+Linux zeus-1 3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.2$ ls
+lab3_jshehad_212    Lab3_Sample_Input.txt	 Makefile
+lab3_jshehad_212.c  lab3_typescript_jshehad_212  test_run.out
+bash-4.2$ rm lab3_jshehad_3[K212
+bash-4.2$ ls
+lab3_jshehad_212.c     lab3_typescript_jshehad_212  test_run.out
+Lab3_Sample_Input.txt  Makefile
+bash-4.2$ make
+gcc -g -Wall -o lab3_jshehad_212 lab3_jshehad_212.c
+bash-4.2$ lab3_jshehad_212 jshehadad[K[K[K[K[K[K[K[K[K< Lab3_Sample_Input.txt 
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+Enter a Character: 
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+Enter a number between 1 and 15
+You have enter an invalid number
+Please try again
+Enter a number between 1 and 15
+You have enter an invalid number
+Please try again
+Enter a number between 1 and 15
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+**********
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+*        *
+**********
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+**********
+
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+Change Character Enter 'C'
+Change Number Enter 'N'
+Print Rectangle Type 1 (Border Only) Enter '1'
+Print Rectangle Type 2 (Filled In) Enter '2'
+Quit Program Enter 'Q'
+
+Enter a Choice: 
+Exiting the program...
+
+bash-4.2$ make clean
+rm lab3_jshehad_212
+bash-4.2$ exit
+
+Script done on Tue 18 Sep 2018 12:19:30 PM EDT

@@ -1,0 +1,136 @@
+Script started on Thu 06 Sep 2018 05:52:18 PM EDT
+[?1034hbash-4.2$ uname -a
+Linux zeus-1 3.10.0-862.9.1.el7.x86_64 #1 SMP Mon Jul 16 16:29:36 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.2$ ls
+lab2_jshehad_212  lab2_jshehad_212.c  Lab2Typescript_jshehad_212  Makefile
+bash-4.2$ cat lab2_jshehad_212.c
+/* Jihad Shehadeh G00986964
+ * CS 262, Lab Section 212
+ * Lab 2
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+	char Buffer[100];
+	int ftemp = 0;
+	double wind = 0.0;
+	double wChill = 0.0;
+
+	printf("Enter the Temp: \n");
+	fgets(Buffer, 100, stdin);
+	sscanf(Buffer, "%d",  &ftemp);
+	if(ftemp > 50){
+		printf("error, Number Should NOT exceed Above 50F\n");
+		return 0;
+	}
+	printf("Enter the wind speed: \n");
+	fgets(Buffer, 100, stdin);
+	sscanf(Buffer, "%lf", &wind);
+	if(wind < 3){
+		printf("error, Number Should NOT exceed Below 3mph\n");
+		return 0;
+	}
+	
+	wChill = (35.74+0.6215*(ftemp)-35.75*pow(wind,0.16)+0.4275*(ftemp)*pow(wind,0.16));
+	printf("Temperature: %d degrees Fahrenheit\n", ftemp);
+	printf("Wind Speed: %.1lf mph\n", wind);
+	printf("Wind Chill Index: %.1lf degrees Fahrenheit\n", wChill);
+	return 0;
+
+	return 0;
+}
+
+bash-4.2$ makw [K[Ke all
+gcc -g -Wall -o lab2_jshehad_212 lab2_jshehad_212.c -lm
+bash-4.2$ make clean
+rm lab2_jshehad_212
+bash-4.2$ make
+gcc -g -Wall -o lab2_jshehad_212 lab2_jshehad_212.c -lm
+bash-4.2$ ls
+lab2_jshehad_212  lab2_jshehad_212.c  Lab2Typescript_jshehad_212  Makefile
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+32
+Enter the wind speed: 
+10
+Temperature: 32 degrees Fahrenheit
+Wind Speed: 10.0 mph
+Wind Chill Index: 23.7 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+32.0
+Enter the wind speed: 
+10
+Temperature: 32 degrees Fahrenheit
+Wind Speed: 10.0 mph
+Wind Chill Index: 23.7 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+32.5
+Enter the wind speed: 
+10
+Temperature: 32 degrees Fahrenheit
+Wind Speed: 10.0 mph
+Wind Chill Index: 23.7 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+-4
+Enter the wind speed: 
+16.4
+Temperature: -4 degrees Fahrenheit
+Wind Speed: 16.4 mph
+Wind Chill Index: -25.4 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+55
+error, Number Should NOT exceed Above 50F
+bash-4.2$ 16
+bash: 16: command not found
+bash-4.2$ 16lab2_jshehad_212 
+Enter the Temp: 
+0
+Enter the wind speed: 
+0
+error, Number Should NOT exceed Below 3mph
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+0.0
+Enter the wind speed: 
+15.9
+Temperature: 0 degrees Fahrenheit
+Wind Speed: 15.9 mph
+Wind Chill Index: -19.9 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+0
+Enter the wind speed: 
+15.9
+Temperature: 0 degrees Fahrenheit
+Wind Speed: 15.9 mph
+Wind Chill Index: -19.9 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+-40
+Enter the wind speed: 
+10
+Temperature: -40 degrees Fahrenheit
+Wind Speed: 10.0 mph
+Wind Chill Index: -65.5 degrees Fahrenheit
+bash-4.2$ lab2_jshehad_212 
+Enter the Temp: 
+8
+Enter the wind speed: 
+4
+Temperature: 8 degrees Fahrenheit
+Wind Speed: 4.0 mph
+Wind Chill Index: 0.4 degrees Fahrenheit
+bash-4.2$ make clead[Kn
+rm lab2_jshehad_212
+bash-4.2$ ls
+lab2_jshehad_212.c  Lab2Typescript_jshehad_212	Makefile
+bash-4.2$ exit
+
+Script done on Thu 06 Sep 2018 06:03:44 PM EDT
